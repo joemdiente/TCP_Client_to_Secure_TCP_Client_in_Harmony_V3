@@ -1,0 +1,43 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: tcpipStack}
+children:
+- type: Symbols
+  children:
+  - type: Integer
+    attributes: {id: TCPIP_STACK_DRAM_SIZE}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '49250'}
+  - type: Boolean
+    attributes: {id: TCPIP_STACK_HEAP_CALC_MASK}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+  - type: Integer
+    attributes: {id: TCPIP_STACK_HEAP_SIZE_RECOMMEND}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tcpipStack, value: '35'}
+  - type: Boolean
+    attributes: {id: TCPIP_STACK_SYS_RANDOM_H2_ADAPTER}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: tcpipStack, value: 'true'}
+  - type: Boolean
+    attributes: {id: TCPIP_STACK_USER_NOTIFICATION}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'true'}
+- type: ElementPosition
+  attributes: {x: '29', y: '60', id: tcpipStack}

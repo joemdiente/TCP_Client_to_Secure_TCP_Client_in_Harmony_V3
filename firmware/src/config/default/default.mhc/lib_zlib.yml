@@ -1,0 +1,6 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: lib_zlib}
+children:
+- type: ElementPosition
+  attributes: {x: '379', y: '475', id: lib_zlib}

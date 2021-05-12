@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/default/production/tcpip-secure.X.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>2098304</length>                 
+      <used>572932</used>                     
+      <free>1525372</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>655360</length>                 
+      <used>39476</used>                     
+      <free>615884</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

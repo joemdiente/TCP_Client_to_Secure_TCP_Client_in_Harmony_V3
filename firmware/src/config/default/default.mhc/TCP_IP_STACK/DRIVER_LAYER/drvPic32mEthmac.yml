@@ -1,0 +1,28 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: drvPic32mEthmac}
+children:
+- type: Symbols
+  children:
+  - type: Integer
+    attributes: {id: DRV_ETHMAC_HEAP_SIZE}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'true'}
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: drvPic32mEthmac, value: '6528'}
+  - type: String
+    attributes: {id: DRV_INTMAC_PHY_TYPE}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: drvPic32mEthmac, value: LAN8740}
+- type: ElementPosition
+  attributes: {x: '521', y: '20', id: drvPic32mEthmac}
